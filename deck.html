@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deck Demo</title>
+  <meta name="description" content="Playing Card Demo">
+  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script type="text/javascript" src="deck.js"></script>
+  <div class="title">Deck of Cards Demo</div>
+  <div class="button_holder">
+  	<button class="shuffle" onclick="deck1.shuffle()">Shuffle</button>
+  	<button class="draw" onclick="deck1.draw()">Draw</button>
+  </div>
+  <div class="sub_buttons">Remaining Cards in Deck <span id="remainingcards">52</span></div>
+  <div id="message"></div>
+  <div id="displaydraw">&#x1F0A0;</div>
+</body>
+</html>

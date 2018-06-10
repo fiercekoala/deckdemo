@@ -1,0 +1,74 @@
+body{
+	font-family: 'Play', sans-serif;
+	background-image: url("img/bg.png");
+}
+.title{
+	text-align: center;
+	font-size: 3em;
+	padding: 10px;
+}
+.button_holder{
+	text-align: center;
+	padding: 10px;
+}
+.button_holder button{
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	margin: 0 20px;
+}
+.button_holder button.shuffle{
+	background-color:#0061a7;
+	border:1px solid #154682;
+}
+.button_holder button.shuffle:hover{
+	background-color:#54a3f7;
+}
+.button_holder button.draw{
+	background-color:#44c767;
+	border:1px solid #18ab29;
+}
+.button_holder button.draw:hover{
+	background-color:#5cbf2a;
+}
+.sub_buttons{
+	text-align: center;
+	font-size: 1.5em;
+	padding: 10px;
+}
+#message{
+	text-align: center;
+	font-size: 1.5em;
+}
+#displaydraw{
+	text-align: center;
+	font-size: 15em;
+}
+
+.hearts, .diamonds{
+	color: red;
+}
+
+@media only screen and (max-width: 460px) {
+    body {
+        font-size: 80%;
+    }
+    #displaydraw{
+		font-size: 20em;
+	}
+}
+
+@media only screen and (max-width: 374px) {
+    body {
+        font-size: 60%;
+    }
+    .button_holder button{
+		margin: 0 10px;
+	}
+}
