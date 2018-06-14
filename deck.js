@@ -66,7 +66,7 @@ function cardDeck() {
     },
 
     // Testing function to show cards in console.
-    showDeck:() => { console.log(deck); },
+    showDeck:() => { console.log(deck); return deck.length; },
   };
 
   return deck_holder;
