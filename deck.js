@@ -33,7 +33,7 @@ function cardDeck() {
     //Simulate the Draw Action, force a shuffle if the deck has not been shuffled
     draw:() => {
       if(Array.isArray(deck) && deck.length === 0){
-        deckholder.shuffle();
+        deck_holder.shuffle();
         document.getElementById("message").innerHTML = "Deck Shuffled";
         document.getElementById("displaydraw").innerHTML = "&#x1F0A0;";
         document.getElementById("remainingcards").innerHTML = deck.length;
