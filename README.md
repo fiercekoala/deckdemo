@@ -1,5 +1,5 @@
 # deckdemo
-Deck Demo for Solera
+Deck Demo
 
 Write a program that deals one card at the time from a shuffled deck of cards. Once program deals the last card it should reshuffle and continue dealing cards one at the time.
 
